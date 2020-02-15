@@ -13,11 +13,25 @@ Text Domain: custom
 @import 'css/home_block_1.css?a1=9';
 @import 'css/home_block_2.css?a1=2';
 @import 'css/home_block_3.css?a1=2';
+@import 'css/home_block_4.css?a1=2';
 @import 'css/grid.css?a1=1';
 
 body{
   margin:0;
   padding:0;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.89;
+  letter-spacing: 0;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
 }
 
 /*--------------------------------------------------------------

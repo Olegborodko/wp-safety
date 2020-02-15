@@ -246,3 +246,9 @@ button{font-style:normal;font-weight:300;font-family:Poppins, sans-serif;}
   /*.tm_pb_builder #tm_builder_outer_content .tm_pb_section_2{display:none!important;}*/
   /*.tm_pb_builder #tm_builder_outer_content .tm_pb_row_3{display:none!important;}*/
 }
+
+@media only screen and ( max-width: 767px ){
+  .tm_pb_builder #tm_builder_outer_content .tm_pb_text_3 {
+    margin-top: 40px;
+  }
+}
