@@ -1,0 +1,123 @@
+/*!
+Theme Name: custom
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: custom
+*/
+
+@import 'css/fonts.css?a1=1';
+@import 'css/menu.css?a1=1';
+@import 'css/header.css?a1=2';
+@import 'css/home_block_1.css?a1=9';
+@import 'css/home_block_2.css?a1=2';
+@import 'css/home_block_3.css?a1=2';
+@import 'css/grid.css?a1=1';
+
+body{
+  margin:0;
+  padding:0;
+}
+
+/*--------------------------------------------------------------
+## Toggle buttons
+--------------------------------------------------------------*/
+.menu-toggle {
+  padding: 10px 10px;
+  cursor: pointer;
+  transition-property: opacity;
+  transition-duration: 0.15s;
+  transition-timing-function: linear;
+  font: inherit;
+  color: inherit;
+  text-transform: none;
+  background: none;
+  border: 0;
+  margin: 0;
+  overflow: visible;
+}
+
+.menu-toggle:hover {
+  opacity: 1;
+}
+
+.menu-toggle .menu-toggle-inner {
+  transition-duration: 0.1s;
+  transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.menu-toggle .menu-toggle-inner::before {
+  transition: top 0.1s 0.14s ease, opacity 0.1s ease;
+}
+
+.menu-toggle .menu-toggle-inner::after {
+  transition: bottom 0.1s 0.14s ease, -webkit-transform 0.1s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  transition: bottom 0.1s 0.14s ease, transform 0.1s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  transition: bottom 0.1s 0.14s ease, transform 0.1s cubic-bezier(0.55, 0.055, 0.675, 0.19), -webkit-transform 0.1s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.menu-toggle.toggled .menu-toggle-inner {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  transition-delay: 0.14s;
+  transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.menu-toggle.toggled .menu-toggle-inner::before {
+  top: 0;
+  opacity: 0;
+  transition: top 0.1s ease, opacity 0.1s 0.14s ease;
+}
+
+.menu-toggle.toggled .menu-toggle-inner::after {
+  bottom: 0;
+  -webkit-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  transition: bottom 0.1s ease, -webkit-transform 0.1s 0.14s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: bottom 0.1s ease, transform 0.1s 0.14s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: bottom 0.1s ease, transform 0.1s 0.14s cubic-bezier(0.215, 0.61, 0.355, 1), -webkit-transform 0.1s 0.14s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.menu-toggle-box {
+  width: 22px;
+  height: 16px;
+  display: block;
+  position: relative;
+}
+
+.menu-toggle-inner {
+  display: block;
+  top: 50%;
+  margin-top: -1px;
+}
+
+.menu-toggle-inner, .menu-toggle-inner::before, .menu-toggle-inner::after {
+  width: 22px;
+  height: 2px;
+  background-color: #000;
+  border-radius: 0;
+  position: absolute;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  transition-duration: 0.15s;
+  transition-timing-function: ease;
+}
+
+.menu-toggle-inner::before, .menu-toggle-inner::after {
+  content: "";
+  display: block;
+}
+
+.menu-toggle-inner::before {
+  top: -7px;
+}
+
+.menu-toggle-inner::after {
+  bottom: -7px;
+}
+
+/*======================================*/
