@@ -11,14 +11,12 @@
 
 ?>
 
-</div><!-- #content -->
-
 <footer id="colophon" class="site-footer default" role="contentinfo">
 
   <div class="footer-area-wrap ">
     <div class="container">
       <section id="footer-area" class="footer-area widget-area footer-area--3-cols row">
-        <aside id="carprotect_widget_about-2" class="col-xs-12 col-sm-12 col-md-4 col-lg-4  widget widget-about">
+        <aside id="carprotect_widget_about-2" class="col-xs-12 col-sm-12 col-md-3 col-lg-4  widget widget-about">
           <div class="widget-about__logo">
             <a class="widget-about__logo-link" href="">
               <img class="widget-about__logo-img"
@@ -28,7 +26,7 @@
           <div class="widget-about__tagline"></div>
           <div class="widget-about__content"></div>
         </aside>
-        <aside id="text-2" class="col-xs-12 col-sm-12 col-md-4 col-lg-4  widget widget_text">
+        <aside id="text-2" class="col-xs-12 col-sm-12 col-md-3 col-lg-4  widget widget_text">
           <div class="textwidget"></div>
         </aside>
         <aside id="carprotect_widget_subscribe_follow-3"
@@ -56,9 +54,16 @@
               href="">Cookies Policy</a></span></div>
       </div>
 
-    </div><!-- .site-info -->
-  </div><!-- .container -->
+    </div>
+  </div>
 </footer>
+
+</div>
+</div>
+</div>
+</div><!-- #content -->
+
+<a href="#" id="toTop" trackid="111" style="display: inline;"><span></span></a>
 
 <?php wp_footer(); ?>
 

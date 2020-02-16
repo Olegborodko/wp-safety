@@ -47,3 +47,7 @@
   </header><!-- #masthead -->
 
 	<div id="content" class="site-content">
+
+    <div class="entry-content">
+      <div class="tm_builder_outer_content" id="tm_builder_outer_content">
+        <div class="tm_builder_inner_content tm_pb_gutters3">

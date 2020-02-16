@@ -1,0 +1,167 @@
+@media all {
+  h5 {
+    margin: 0 0 20px;
+    font-family: 'Open Sans', sans-serif !important;
+  }
+
+  h5:last-child {
+    margin-bottom: 0;
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  ::-moz-placeholder {
+    opacity: 1;
+  }
+
+  :-moz-placeholder {
+    opacity: 1;
+  }
+
+  a {
+    text-decoration: none;
+    transition: .3s;
+  }
+
+  a:hover, a:active {
+    text-decoration: none;
+  }
+
+  .breadcrumbs {
+    position: relative;
+    padding: 22px 0;
+  }
+
+  .breadcrumbs:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 8px;
+    width: 100%;
+    opacity: 0.15;
+  }
+
+  .breadcrumbs .row {
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .breadcrumbs__title .page-title {
+    margin: 0;
+  }
+
+  .breadcrumbs__wrap {
+    margin: 5px 0;
+  }
+
+  .breadcrumbs__item {
+    display: inline-block;
+  }
+
+  .breadcrumbs__item-sep {
+    margin: 0 .5em;
+  }
+
+  .breadcrumbs__item-link {
+    text-decoration: none;
+  }
+
+  /*! end @import */
+  .breadcrumbs__wrap {
+    display: none;
+  }
+
+  * {
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    -webkit-hyphens: none;
+    hyphens: none;
+  }
+}
+
+/*! CSS Used from: Embedded */
+h5 {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 1.54;
+  font-family: Poppins, sans-serif;
+  letter-spacing: 0em;
+  text-align: inherit;
+  color: #34465a;
+}
+
+a {
+  color: #3ad88f;
+}
+
+a:hover {
+  color: #34465a;
+}
+
+@media (min-width: 1200px) {
+  .site .container {
+    max-width: 1404px;
+  }
+}
+
+::-webkit-input-placeholder {
+  color: #888888;
+}
+
+::-moz-placeholder {
+  color: #888888;
+}
+
+:-moz-placeholder {
+  color: #888888;
+}
+
+:-ms-input-placeholder {
+  color: #888888;
+}
+
+.breadcrumbs {
+  background-color: #f8f8f8;
+}
+
+.breadcrumbs:before {
+  background: linear-gradient(to bottom, rgb(217, 217, 217), rgb(253, 253, 253));
+}
+
+.breadcrumbs__item {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 1.5;
+  font-family: Poppins, sans-serif;
+  letter-spacing: 0em;
+}
+
+.breadcrumbs__item-target {
+  color: #34465a;
+}
+
+@media only screen and ( max-width: 767px ) {
+  .breadcrumbs__title, .breadcrumbs__items {
+    padding-left: 1.5625rem;
+    padding-right: 1.5625rem;
+  }
+}
+
+@media only screen and ( min-width: 768px ) {
+  .breadcrumbs__title, .breadcrumbs__items {
+    padding-left: 2.5625rem;
+    padding-right: 1.5625rem;
+  }
+}
+
+/*! CSS Used from: Embedded */

@@ -1,0 +1,66 @@
+
+@media all{
+  #tm_builder_outer_content :focus{outline:0;}
+  #tm_builder_outer_content .tm_pb_section{z-index:1;}
+  #tm_builder_outer_content .tm_pb_section{margin-bottom:0;}
+  #tm_builder_outer_content *{box-sizing:border-box;}
+  #tm_builder_outer_content .tm_pb_text{word-wrap:break-word;}
+  #tm_builder_outer_content .tm_pb_column{background-size:cover;background-position:center;}
+  #tm_builder_outer_content .tm_pb_row:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0;width:0;}
+  #tm_builder_outer_content .tm_pb_section{background-position:center;background-repeat:no-repeat;background-size:100%;background-size:cover;}
+  #tm_builder_outer_content .tm_pb_text p:last-of-type{padding-bottom:0;}
+  #tm_builder_outer_content .tm_pb_text_align_left{text-align:left;}
+  #tm_builder_outer_content .tm_pb_section{position:relative;background-color:#fff;}
+  #tm_builder_outer_content .tm_section_transparent{background-color:transparent;}
+}
+/*! CSS Used from: https://web.archive.org/web/20180825170713cs_/http://safetyfirsthomecare.com/wp-content/themes/child/style.css?ver=1.0.0 ; media=all */
+@media all{
+  ::-moz-placeholder{opacity:1;}
+  :-moz-placeholder{opacity:1;}
+  .screen-reader-text{clip:rect(1px, 1px, 1px, 1px);position:absolute!important;height:1px;width:1px;overflow:hidden;}
+  .screen-reader-text:focus{background-color:#f1f1f1;border-radius:3px;box-shadow:0 0 2px 2px rgba(0, 0, 0, 0.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:0.875rem;font-weight:bold;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000;}
+  .entry-content:before,.entry-content:after{content:"";display:table;table-layout:fixed;}
+  .entry-content:after{clear:both;}
+  .site-main{margin-bottom:60px;}
+  .use-tm-pb-builder .site-main{margin-bottom:0;}
+  .site-content_wrap{margin-top:3em;}
+  .use-tm-pb-builder.position-fullwidth .site-content_wrap{margin-top:0;}
+  .hentry{position:relative;}
+  .entry-title{margin:0;}
+  .post-thumbnail__img{display:inline-block;vertical-align:top;}
+  /*! end @import */
+  footer.entry-footer{display:none;}
+  .padding-top-8px{padding-top:8px;}
+  *{-moz-hyphens:none;-ms-hyphens:none;-webkit-hyphens:none;hyphens:none;}
+  .h3_cdpap{margin-top:54px!important;}
+  .figure_cdpap{margin:40px 0;}
+  #custom_content_cdpap .container .row div,#custom_content_cdpap #primary{padding-left:0!important;padding-right:0!important;}
+  #custom_content_cdpap{margin-bottom:60px!important;}
+  #main{margin-bottom:0!important;}
+}
+/*! CSS Used from: Embedded */
+h1{font-style:normal;font-weight:300;font-size:31px;line-height:1.1;font-family:Poppins, sans-serif;letter-spacing:0em;text-align:inherit;color:#000000;}
+h3{font-style:normal;font-weight:200;font-size:32px;line-height:1.35;font-family:Poppins, sans-serif;letter-spacing:0em;text-align:inherit;color:#34465a;}
+h5{font-style:normal;font-weight:300;font-size:24px;line-height:1.54;font-family:Poppins, sans-serif;letter-spacing:0em;text-align:inherit;color:#34465a;}
+@media (min-width: 992px){
+  h1{font-size:62px;}
+  h3{font-size:40px;}
+}
+@media (min-width: 1200px){
+  .site .container{max-width:1404px;}
+}
+::-webkit-input-placeholder{color:#888888;}
+::-moz-placeholder{color:#888888;}
+:-moz-placeholder{color:#888888;}
+:-ms-input-placeholder{color:#888888;}
+/*! CSS Used from: Embedded */
+.tm_pb_builder #tm_builder_outer_content .tm_pb_column_0{order:1;}
+@media only screen and ( min-width: 992px ) and ( max-width: 1440px ){
+  .tm_pb_builder #tm_builder_outer_content .tm_pb_column_0{order:1;}
+}
+@media only screen and ( max-width: 991px ){
+  .tm_pb_builder #tm_builder_outer_content .tm_pb_column_0{order:1;}
+}
+@media only screen and ( max-width: 767px ){
+  .tm_pb_builder #tm_builder_outer_content .tm_pb_column_0{order:1;}
+}

@@ -104,14 +104,14 @@
                       <div data-sitekey="6Lc89B0UAAAAAKGLSB4ASklwfVlf2Qx3TJasKfKu" data-theme="dark"
                            class="wpcf7-form-control g-recaptcha wpcf7-recaptcha">
                         <div>
-                          <div style="width: 302px; height: 422px; position: relative;">
-                            <div style="width: 302px; height: 422px; position: absolute;">
+<!--                          <div style="width: 302px; height: 422px; position: relative;">-->
+<!--                            <div style="width: 100%; height: 422px; position: absolute;">-->
                               <!--                                      <iframe-->
                               <!--                                        src="https://web.archive.org/web/20180807183758/https://www.google.com/recaptcha/api/fallback?k=6Lc89B0UAAAAAKGLSB4ASklwfVlf2Qx3TJasKfKu&amp;hl=en&amp;v=v1531759913576&amp;t=41213"-->
                               <!--                                        frameborder="0" scrolling="no"-->
                               <!--                                        style="width: 302px; height: 422px; border-style: none;"></iframe>-->
-                            </div>
-                          </div>
+<!--                            </div>-->
+<!--                          </div>-->
                           <div
                             style="border-style: none; bottom: 12px; left: 25px; margin: 0px; padding: 0px; right: 25px; background: #f9f9f9; border: 1px solid #c1c1c1; border-radius: 3px; height: 60px; width: 300px;">
                                     <textarea id="g-recaptcha-response" name="g-recaptcha-response"

@@ -9,7 +9,7 @@ Text Domain: custom
 
 @import 'css/fonts.css?a1=1';
 @import 'css/menu.css?a1=1';
-@import 'css/header.css?a1=2';
+@import 'css/header.css?a1=3';
 @import 'css/home_block_1.css?a1=9';
 @import 'css/home_block_2.css?a1=2';
 @import 'css/home_block_3.css?a1=2';
@@ -18,8 +18,16 @@ Text Domain: custom
 @import 'css/home_block_6.css?a1=2';
 @import 'css/home_block_7.css?a1=2';
 
-@import 'css/footer.css?a1=3';
-@import 'css/grid.css?a1=1';
+@import 'css/about_block_1.css?a1=2';
+@import 'css/about_block_2.css?a1=3';
+@import 'css/about_block_3.css?a1=2';
+
+@import 'css/CDPAP_block_2.css?a1=2';
+
+@import 'css/downloads_block3.css?a1=2';
+
+@import 'css/footer.css?a1=4';
+@import 'css/grid.css?a1=5';
 
 body{
   margin:0;
@@ -142,3 +150,11 @@ p {
 }
 
 /*======================================*/
+
+.container{
+  padding: 0;
+}
+
+.row{
+  margin: 0;
+}

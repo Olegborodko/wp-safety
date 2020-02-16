@@ -598,13 +598,8 @@
       -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-      margin-left: -15px;
-      margin-right: -15px;
-    }
-
-    .header-container__flex > * {
-      margin-left: 15px;
-      margin-right: 15px;
+      padding-left:15px;
+      padding-right:15px;
     }
   }
   @media (min-width: 992px) {

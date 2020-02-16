@@ -15,10 +15,6 @@
 get_header();
 ?>
 
-  <div class="entry-content">
-    <div class="tm_builder_outer_content" id="tm_builder_outer_content">
-      <div class="tm_builder_inner_content tm_pb_gutters3">
-
         <?php
         require_once('d_blocks/home_block1.php');
 
@@ -35,11 +31,21 @@ get_header();
         require_once('d_blocks/home_block7.php');
         ?>
 
-
-
-      </div>
-    </div>
-  </div>
+<!--  <div id="tm_builder_outer_content">-->
+<!--    <div class="container">-->
+<!--      <div class="row">-->
+<!--        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">-->
+<!--          1-->
+<!--        </div>-->
+<!--        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">-->
+<!--          2-->
+<!--        </div>-->
+<!--        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">-->
+<!--          3-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
 
 <?php
 get_footer();

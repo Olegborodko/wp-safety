@@ -26,7 +26,10 @@
   display: flex;
   flex-wrap: wrap;
   margin-left: -0.9375rem;
-  margin-right: -0.9375rem; }
+  margin-right: -0.9375rem;
+  margin-left: -1.5625rem;
+  margin-right: -1.5625rem;
+}
 .row.tm_pb_col_padding_reset {
   margin-left: 0;
   margin-right: 0; }
