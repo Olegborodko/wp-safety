@@ -27,6 +27,12 @@ get_header();
         require_once('d_blocks/home_block3.php');
 
         require_once('d_blocks/home_block4.php');
+
+        require_once('d_blocks/home_block5.php');
+
+        require_once('d_blocks/home_block6.php');
+
+        require_once('d_blocks/home_block7.php');
         ?>
 
 

@@ -1,0 +1,179 @@
+/*! CSS Used from: https://web.archive.org/web/20180807181925cs_/http://safetyfirsthomecare.com/wp-content/plugins/power-builder/framework/assets/css/grid.css?ver=1.4.0 ; media=all */
+@media all{
+  .container{margin-left:auto;margin-right:auto;padding-left:0.9375rem;padding-right:0.9375rem;}
+  @media (min-width: 544px){
+    .container{max-width:576px;}
+  }
+  @media (min-width: 768px){
+    .container{max-width:720px;}
+  }
+  @media (min-width: 992px){
+    .container{max-width:940px;}
+  }
+  @media (min-width: 1440px){
+    .container{max-width:1140px;}
+  }
+  .row{display:flex;flex-wrap:wrap;margin-left:-0.9375rem;margin-right:-0.9375rem;}
+  .col-xs-12,.col-sm-12,.col-md-4,.col-lg-4{position:relative;min-height:1px;padding-left:0.9375rem;padding-right:0.9375rem;}
+  .col-xs-12{flex:0 0 100%;max-width:100%;}
+  @media (min-width: 544px){
+    .col-sm-12{flex:0 0 100%;max-width:100%;}
+  }
+  @media (min-width: 768px){
+    .col-md-4{flex:0 0 33.33333%;max-width:33.33333%;}
+  }
+  @media (min-width: 992px){
+    .col-lg-4{flex:0 0 33.33333%;max-width:33.33333%;}
+  }
+}
+/*! CSS Used from: https://web.archive.org/web/20180807181925cs_/http://safetyfirsthomecare.com/wp-content/themes/child/style.css?ver=1.0.0 ; media=all */
+@media all{
+  /*! @import https://web.archive.org/web/20180825143358cs_/http://safetyfirsthomecare.com/wp-content/themes/child/parent_style.css */
+  aside,footer,section{display:block;}
+  a{background-color:transparent;text-decoration:none;}
+  a:active,a:hover{outline:0;}
+  img{border:0;}
+  .container{margin-left:auto;margin-right:auto;padding-left:1.5625rem;padding-right:1.5625rem;}
+  @media (min-width: 544px){
+    .container{max-width:576px;}
+  }
+  @media (min-width: 768px){
+    .container{max-width:720px;}
+  }
+  @media (min-width: 992px){
+    .container{max-width:940px;}
+  }
+  @media (min-width: 1200px){
+    .container{max-width:1200px;}
+  }
+  .row{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-left:-1.5625rem;margin-right:-1.5625rem;}
+  .row:before,.row:after{content:none;}
+  .col-xs-12,.col-sm-12,.col-md-4,.footer-area .widget-about:first-child,.col-lg-4{position:relative;min-height:1px;padding-left:1.5625rem;padding-right:1.5625rem;float:none;}
+  .col-xs-12{-webkit-flex:0 0 100%;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%;}
+  @media (min-width: 544px){
+    .col-sm-12{-webkit-flex:0 0 100%;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%;}
+  }
+  @media (min-width: 768px){
+    .col-md-4{-webkit-flex:0 0 33.33333%;-ms-flex:0 0 33.33333%;flex:0 0 33.33333%;max-width:33.33333%;}
+  }
+  @media (min-width: 992px){
+    .footer-area .widget-about:first-child{-webkit-flex:0 0 25%;-ms-flex:0 0 25%;flex:0 0 25%;max-width:25%;}
+    .col-lg-4{-webkit-flex:0 0 33.33333%;-ms-flex:0 0 33.33333%;flex:0 0 33.33333%;max-width:33.33333%;}
+  }
+  *,*:before,*:after{box-sizing:inherit;}
+  img{height:auto;max-width:100%;vertical-align:top;}
+  ul{margin:0 0 1.5em 0;padding-left:0;}
+  ul:last-child{margin-bottom:0;}
+  .inline-list{padding:0;margin:0;list-style:none;}
+  .inline-list li{display:inline-block;}
+  ::-moz-placeholder{opacity:1;}
+  :-moz-placeholder{opacity:1;}
+  a{text-decoration:none;transition:.3s;}
+  a:hover,a:active{text-decoration:none;}
+  .social-list .social-list__items{margin-left:-11px;margin-right:-11px;}
+  .social-list .social-list__items .menu-item{padding-left:11px;padding-right:11px;}
+  .site-footer:not(.style-2) .social-list .social-list__items{margin-left:-7px;margin-right:-7px;}
+  .site-footer:not(.style-2) .social-list .social-list__items .menu-item{padding-left:7px;padding-right:7px;}
+  .social-list .menu-item{margin:0;}
+  .social-list .menu-item::before{display:none;}
+  .social-list .menu-item > a{display:block;text-decoration:none;text-align:center;}
+  .social-list .menu-item > a:hover{text-decoration:none;}
+  .social-list .menu-item > a[href*="facebook.com"]::before{content:'\f09a';}
+  .social-list .menu-item > a::before{display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-size:20px;font-size:1.25rem;display:block;line-height:1.5em;margin:auto;}
+  .site-footer:not(.style-2) .social-list .menu-item > a::before{font-size:15px;font-size:0.9375rem;}
+  .site-footer .social-list .social-list__items .menu-item a:before{font-size:21px;font-size:1.3125rem;}
+  .screen-reader-text{clip:rect(1px, 1px, 1px, 1px);position:absolute!important;height:1px;width:1px;overflow:hidden;}
+  .screen-reader-text:focus{background-color:#f1f1f1;border-radius:3px;box-shadow:0 0 2px 2px rgba(0, 0, 0, 0.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:0.875rem;font-weight:bold;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000;}
+  .site-footer:before,.site-footer:after{content:"";display:table;table-layout:fixed;}
+  .site-footer:after{clear:both;}
+  .site-footer{width:100%;}
+  .site-footer{font-size:14px;font-size:0.875rem;line-height:1.714285;}
+  .footer-container{padding:30px 0 25px;}
+  .site-info .footer-copyright{margin-top:10px;margin-bottom:10px;}
+  .site-info .footer-copyright{color:#a2a2b5;}
+  .site-footer.default .site-info-wrap{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-content:stretch;-ms-flex-line-pack:stretch;align-content:stretch;-webkit-align-items:center;-ms-flex-align:center;align-items:center;}
+  @media (min-width: 992px){
+    .site-footer.default .site-info-wrap{-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;}
+  }
+  .site-footer.default .site-info-wrap > *{width:100%;text-align:center;}
+  @media (min-width: 992px){
+    .site-footer.default .site-info-wrap > *{text-align:left;width:auto;}
+  }
+  .site-footer.default .site-info-wrap{margin-left:-15px;margin-right:-15px;}
+  .site-footer.default .site-info-wrap > *{margin-left:15px;margin-right:15px;}
+  .widget{margin-bottom:70px;}
+  .footer-area:not(.footer-area--fullwidth) .widget{font-size:14px;font-size:0.875rem;line-height:1.714285;}
+  .widget + .widget{padding-top:57px;border-top:1px solid #ECECEE;}
+  .footer-area:not(.footer-area--fullwidth) .widget + .widget{padding-top:0;border-top:none;}
+  .footer-area{padding:20px 0 62px;border-bottom:1px solid #e5ebf0;}
+  @media (min-width: 992px){
+    .footer-area .widget-about:first-child{-webkit-align-self:flex-end;-ms-flex-item-align:end;align-self:flex-end;}
+    .footer-area .widget-about:first-child .widget-about__logo{padding-left:32px;padding-bottom:15px;}
+  }
+  .footer-area-wrap{padding-top:58px;}
+  .footer-area .widget{margin-bottom:30px;}
+  .widget ul{margin-bottom:0;padding:0;margin-left:0;list-style:none;}
+  .widget-about__logo-img{vertical-align:top;}
+  .widget-about__tagline{font-size:12px;font-size:0.75rem;}
+  /*! end @import */
+  #carprotect_widget_subscribe_follow-3{text-align:right;}
+  #carprotect_widget_subscribe_follow-3:after{content:'SafetyFirstHomeCare@gmail.com';display:block;margin-top:18px;font-size:15px;}
+  .footer-area-wrap{padding-top:0px;}
+  #footer-area{padding:20px 0 10px;}
+  .footer-container{padding:0;}
+  #footer-area aside{margin-bottom:10px;}
+  #carprotect_widget_about-2 img{width:140px;}
+  *{-moz-hyphens:none;-ms-hyphens:none;-webkit-hyphens:none;hyphens:none;}
+}
+/*! CSS Used from: Embedded */
+a{color:#3ad88f;}
+a:hover{color:#34465a;}
+@media (min-width: 1200px){
+  .site .container{max-width:1404px;}
+}
+::-webkit-input-placeholder{color:#888888;}
+::-moz-placeholder{color:#888888;}
+:-moz-placeholder{color:#888888;}
+:-ms-input-placeholder{color:#888888;}
+.site-footer{background-color:#f4f6f9;}
+.footer-area-wrap{background-color:#f4f6f9;}
+.footer-copyright{color:#000000;}
+.footer-copyright a{color:#13c1d9;}
+.footer-copyright a:hover{color:#34465a;}
+.social-list .menu-item > a{color:#2ed3ae;}
+.social-list .menu-item > a:hover{color:#34465a;}
+
+/* ========================== */
+@media all{
+  a{background-color:transparent;text-decoration:none;}
+  a:active,a:hover{outline:0;}
+  *,*:before,*:after{box-sizing:inherit;}
+  ::-moz-placeholder{opacity:1;}
+  :-moz-placeholder{opacity:1;}
+  a{text-decoration:none;transition:.3s;}
+  a:hover,a:active{text-decoration:none;}
+  .social-list .menu-item > a{display:block;text-decoration:none;text-align:center;}
+  .social-list .menu-item > a:hover{text-decoration:none;}
+  .social-list .menu-item > a[href*="facebook.com"]::before{content:'\f09a';}
+  .social-list .menu-item > a::before{display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-size:20px;font-size:1.25rem;display:block;line-height:1.5em;margin:auto;}
+  .site-footer:not(.style-2) .social-list .menu-item > a::before{font-size:15px;font-size:0.9375rem;}
+  .site-footer .social-list .social-list__items .menu-item a:before{font-size:21px;font-size:1.3125rem;}
+  .screen-reader-text{clip:rect(1px, 1px, 1px, 1px);position:absolute!important;height:1px;width:1px;overflow:hidden;}
+  .screen-reader-text:focus{background-color:#f1f1f1;border-radius:3px;box-shadow:0 0 2px 2px rgba(0, 0, 0, 0.6);clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:0.875rem;font-weight:bold;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000;}
+  /*! end @import */
+  *{-moz-hyphens:none;-ms-hyphens:none;-webkit-hyphens:none;hyphens:none;}
+}
+/*! CSS Used from: Embedded */
+a{color:#3ad88f;}
+a:hover{color:#34465a;}
+::-webkit-input-placeholder{color:#888888;}
+::-moz-placeholder{color:#888888;}
+:-moz-placeholder{color:#888888;}
+:-ms-input-placeholder{color:#888888;}
+.social-list .menu-item > a{color:#2ed3ae;}
+.social-list .menu-item > a:hover{color:#34465a;}
+
+
+/* ------------------------ */
+
+

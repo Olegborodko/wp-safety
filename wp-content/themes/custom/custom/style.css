@@ -14,6 +14,11 @@ Text Domain: custom
 @import 'css/home_block_2.css?a1=2';
 @import 'css/home_block_3.css?a1=2';
 @import 'css/home_block_4.css?a1=2';
+@import 'css/home_block_5.css?a1=2';
+@import 'css/home_block_6.css?a1=2';
+@import 'css/home_block_7.css?a1=2';
+
+@import 'css/footer.css?a1=3';
 @import 'css/grid.css?a1=1';
 
 body{
@@ -24,6 +29,8 @@ body{
   font-size: 18px;
   line-height: 1.89;
   letter-spacing: 0;
+  color: #888888;
+  font-family: Poppins, sans-serif;
 }
 
 p {
