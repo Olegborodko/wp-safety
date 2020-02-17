@@ -26,6 +26,11 @@ Text Domain: custom
 
 @import 'css/downloads_block3.css?a1=2';
 
+@import 'css/blog_block_2.css?a1=2';
+
+@import 'css/contact_us_2.css?a1=4';
+@import 'css/contact_us_3.css?a1=2';
+
 @import 'css/footer.css?a1=4';
 @import 'css/grid.css?a1=5';
 
@@ -157,4 +162,10 @@ p {
 
 .row{
   margin: 0;
+}
+
+.page-404{
+  padding:70px 0;
+  text-align: center;
+  
 }
