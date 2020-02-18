@@ -10,47 +10,7 @@
              class="tm_pb_contact_form tm_pb_contact_form_0 tm_pb_contact_form_container clearfix tm_pb_module"
              data-form_unique_num="0"><h2 class="tm_pb_contact_main_title">Need More Info?</h2>
 
-          <form class="tm_pb_contact_form clearfix" method="post"
-                action="">
-            <div class="tm-pb-contact-message"></div>
-            <div class="row">
-
-              <div class="tm_pb_contact_field col-md-12  tm_pb_contact_field_0">
-                <label for="tm_pb_contact_name_1" class="tm_pb_contact_form_label">Name</label>
-                <input type="text" id="tm_pb_contact_name_1" class="tm_pb_contact_form_input" value=""
-                       name="tm_pb_contact_name_1" data-required_mark="required" data-field_type="input"
-                       data-original_id="name" data-original_title="Name"></div>
-              <div class="tm_pb_contact_field col-md-12  tm_pb_contact_field_1">
-                <label for="tm_pb_contact_email_1" class="tm_pb_contact_form_label">Email Address</label>
-                <input type="email" id="tm_pb_contact_email_1" class="tm_pb_contact_form_input" value=""
-                       name="tm_pb_contact_email_1" data-required_mark="required" data-field_type="email"
-                       data-original_id="email" data-original_title="Email Address"></div>
-              <div class="tm_pb_contact_field col-md-12  tm_pb_contact_field_2">
-                <label for="tm_pb_contact_phone_1" class="tm_pb_contact_form_label">Phone</label>
-                <input type="text" id="tm_pb_contact_phone_1" class="tm_pb_contact_form_input" value=""
-                       name="tm_pb_contact_phone_1" data-required_mark="not_required" data-field_type="input"
-                       data-original_id="phone" data-original_title="Phone"></div>
-              <div class="tm_pb_contact_field col-md-6  tm_pb_contact_field_3">
-                <label for="tm_pb_contact_patient_1" class="tm_pb_contact_form_label">Are You The Patient?</label>
-                <select id="tm_pb_contact_patient_1" class="tm_pb_contact_form_input" name="tm_pb_contact_patient_1"
-                        data-required_mark="not_required" data-field_type="select" data-original_id="patient"
-                        data-original_title="Are You The Patient?">
-                  <option value="Yes">Yes</option>
-                  <option value="No">No</option>
-                  <option value="Not Sure">Not Sure</option>
-                </select>
-              </div>
-
-            </div>
-            <input type="hidden" value="tm_contact_proccess" name="tm_pb_contactform_submit_0">
-            <input type="text" value="" name="tm_pb_contactform_validate_0" class="tm_pb_contactform_validate_field">
-            <div class="tm_contact_bottom_container">
-              <button type="submit" class="tm_pb_contact_submit tm_pb_button tm_pb_custom_button_icon"
-                      data-icon="&amp;#x;">Get Info!
-              </button>
-            </div>
-            <input type="hidden" id="_wpnonce-tm-pb-contact-form-submitted" name="_wpnonce-tm-pb-contact-form-submitted"
-                   value="c6c90fdff8"><input type="hidden" name="_wp_http_referer" value="/"></form>
+<?php echo do_shortcode('[contact-form-7 id="27" title="Need More Info"]') ?>
         </div><!-- .tm_pb_contact_form -->
       </div> <!-- .tm_pb_column -->
       <div

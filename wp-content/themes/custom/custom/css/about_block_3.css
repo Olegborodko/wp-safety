@@ -35,3 +35,8 @@
 @media only screen and ( max-width: 767px ){
   .tm_pb_builder #tm_builder_outer_content .tm_pb_column_1{order:1;}
 }
+
+.about_us_block_3_text{
+  text-align:left;
+  padding: 0 10px;
+}

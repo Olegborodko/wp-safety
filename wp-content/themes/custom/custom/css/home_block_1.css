@@ -809,6 +809,20 @@ input[type='submit'] {
   }
 }
 
+.form_home_radio1 span input{
+  width:inherit!important;
+}
+
+@media only screen and ( min-width: 767px ){
+  #form_slider .text4,
+  #form_slider .text5,
+  #form_slider .text8,
+  #form_slider .text9
+  {
+    padding: 0 20px;
+  }
+}
+
 @media only screen and ( min-width: 992px ) and ( max-width: 1440px ) {
   .tm_pb_builder #tm_builder_outer_content .tm_pb_column_0 {
     order: 1;

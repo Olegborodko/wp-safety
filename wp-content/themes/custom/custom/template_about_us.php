@@ -12,6 +12,8 @@ get_header();
   require_once('d_blocks/about_block2.php');
 
   require_once('d_blocks/about_block3.php');
+
+  require_once('d_blocks/about_block4.php');
 ?>
 
 <?php

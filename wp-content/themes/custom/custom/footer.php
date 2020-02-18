@@ -18,7 +18,7 @@
       <section id="footer-area" class="footer-area widget-area footer-area--3-cols row">
         <aside id="carprotect_widget_about-2" class="col-xs-12 col-sm-12 col-md-3 col-lg-4  widget widget-about">
           <div class="widget-about__logo">
-            <a class="widget-about__logo-link" href="">
+            <a class="widget-about__logo-link" href="<?=home_url();?>">
               <img class="widget-about__logo-img"
                    src="<?php echo get_template_directory_uri(); ?>/img/unnamed_new-300x197.png" alt="Safety First">
             </a>

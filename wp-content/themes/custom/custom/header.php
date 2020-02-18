@@ -35,7 +35,7 @@
       <div class="header-container_wrap container">
         <div class="header-container__flex">
           <div class="site-branding">
-            <div class="site-logo site-logo--image"><a class="site-logo__link" href="" rel="home"><img
+            <div class="site-logo site-logo--image"><a class="site-logo__link" href="<?=home_url();?>" rel="home"><img
                   src="<?php echo get_template_directory_uri(); ?>/img/logos.png" alt="Safety First"
                   class="site-link__img" width="457" height="300"></a></div>
           </div>
@@ -97,7 +97,7 @@
             <!--                  href="">Blog</a></li>-->
             <!--            </ul>-->
           </nav>
-          <a class="header-btn btn btn-default" href="">contact us</a>
+          <a href="<?php echo get_page_link( get_page_by_title('contact us')->ID ); ?>" class="header-btn btn btn-default" href="">contact us</a>
         </div>
       </div>
     </div><!-- .header-container -->

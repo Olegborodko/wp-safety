@@ -1,8 +1,5 @@
 <div id="steps" class="tm_pb_section invert tm_pb_anchor mask_custom_black tm_pb_section_4 tm_pb_with_background tm_section_regular tm_section_transparent"><div class="mask_black"></div>
 
-
-
-
   <div class="container">
     <div class=" row tm_pb_row tm_pb_row_5">
 
@@ -17,7 +14,7 @@
         </div> <!-- .tm_pb_text --><hr class="tm_pb_module tm_pb_space tm_pb_divider_2"><div class="tm_pb_text tm_pb_module tm_pb_bg_layout_light tm_pb_text_align_center  tm_pb_text_6">
 
           <h5>Get In Touch To Learn More</h5>
-          <p><a class="header-btn btn btn-default" style="color:#ffffff;font-weight:700" href=" http://safetyfirsthomecare.com/contact-us/">contact us</a></p>
+          <p><a class="header-btn btn btn-default" style="color:#ffffff;font-weight:700" href="<?php echo get_page_link( get_page_by_title('contact us')->ID ); ?>">contact us</a></p>
 
         </div> <!-- .tm_pb_text -->
       </div> <!-- .tm_pb_column -->
