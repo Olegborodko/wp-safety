@@ -179,3 +179,9 @@ h4{font-style:normal;font-weight:300;font-size:28px;line-height:1.43;font-family
   .tm_pb_builder #tm_builder_outer_content .tm_pb_column_4{order:3;}
   .tm_pb_builder #tm_builder_outer_content .tm_pb_column_5{order:4;}
 }
+
+@media only screen and ( max-width: 767px ) {
+  .h3_block_your_care {
+    padding-top: 20px;
+  }
+}

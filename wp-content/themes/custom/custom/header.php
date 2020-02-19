@@ -97,7 +97,7 @@
             <!--                  href="">Blog</a></li>-->
             <!--            </ul>-->
           </nav>
-          <a href="<?php echo get_page_link( get_page_by_title('contact us')->ID ); ?>" class="header-btn btn btn-default" href="">contact us</a>
+          <a href="<?= esc_html(fw_get_db_settings_option('btn_top_href')); ?>" class="header-btn btn btn-default" href=""><?= esc_html(fw_get_db_settings_option('btn_top_text')); ?></a>
         </div>
       </div>
     </div><!-- .header-container -->

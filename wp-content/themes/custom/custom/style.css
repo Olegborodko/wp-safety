@@ -11,8 +11,8 @@ Text Domain: custom
 @import 'css/menu.css?a1=1';
 @import 'css/header.css?a1=3';
 @import 'css/home_block_1.css?a1=10';
-@import 'css/home_block_2.css?a1=2';
-@import 'css/home_block_3.css?a1=2';
+@import 'css/home_block_2.css?a1=4';
+@import 'css/home_block_3.css?a1=3';
 @import 'css/home_block_4.css?a1=2';
 @import 'css/home_block_5.css?a1=2';
 @import 'css/home_block_6.css?a1=2';
@@ -32,7 +32,7 @@ Text Domain: custom
 @import 'css/contact_us_2.css?a1=4';
 @import 'css/contact_us_3.css?a1=2';
 
-@import 'css/footer.css?a1=4';
+@import 'css/footer.css?a1=5';
 @import 'css/grid.css?a1=5';
 
 body{
@@ -157,6 +157,7 @@ p {
 
 /*======================================*/
 
+/* grid */
 .container{
   padding: 0;
 }
@@ -164,6 +165,12 @@ p {
 .row{
   margin: 0;
 }
+
+.grid_padding_left_right_empty{
+  padding-left:0;
+  padding-right:0;
+}
+/* --------- end grid ------------- */
 
 .page-404{
   padding:70px 0;

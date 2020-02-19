@@ -16,7 +16,24 @@ get_header();
 ?>
 
 	<div id="primary" class="content-area">
+    <?php
+    while ( have_posts() ) :
+      the_post();
+    ?>
+    <div class="entry-content">
+		<?php
+		the_content();
 
+		wp_link_pages( array(
+			'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'custom' ),
+			'after'  => '</div>',
+		) );
+		?>
+	</div><!-- .entry-content -->
+    <?php
+
+    endwhile; // End of the loop.
+    ?>
 	</div><!-- #primary -->
 
 <?php

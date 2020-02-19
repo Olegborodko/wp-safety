@@ -1,8 +1,5 @@
 <div class="tm_pb_section  tm_pb_section_1 tm_pb_with_background tm_section_regular">
 
-
-
-
   <div class="container">
     <div class=" row tm_pb_row tm_pb_row_1">
 
