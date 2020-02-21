@@ -20,12 +20,12 @@ Text Domain: custom
 
 @import 'css/about_block_1.css?a1=2';
 @import 'css/about_block_2.css?a1=3';
-@import 'css/about_block_3.css?a1=3';
+@import 'css/about_block_3.css?a1=8';
 @import 'css/about_block_4.css?a1=4';
 
 @import 'css/CDPAP_block_2.css?a1=2';
 
-@import 'css/downloads_block3.css?a1=2';
+@import 'css/downloads_block3.css?a1=3';
 
 @import 'css/blog_block_2.css?a1=2';
 
@@ -170,7 +170,48 @@ p {
   padding-left:0;
   padding-right:0;
 }
+
 /* --------- end grid ------------- */
+
+/* wp-editor */
+
+.about_us_block_3_text {
+  text-align: left;
+  padding: 0 10px;
+}
+
+.about_us_block_3_text h1,
+.about_us_block_3_text h2,
+.about_us_block_3_text h3,
+.about_us_block_3_text h4,
+.about_us_block_3_text h5,
+.about_us_block_3_text h6,
+.about_us_block_3_text h7,
+.about_us_block_3_text h8{
+  display: block;
+  /*font-family: Poppins, sans-serif !important;*/
+  /*font-style: normal;*/
+  position: relative!important;
+  width: 100%;
+  height: initial;
+  margin-bottom: 20px;
+  margin-top: 54px;
+}
+.about_us_block_3_text pre,
+.about_us_block_3_text p{
+  position: relative!important;
+  display: block;
+  margin: 0;
+  min-height: 20px;
+  font-family: Poppins, sans-serif !important;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.89;
+  letter-spacing: 0;
+}
+
+/* ------ end */
 
 .page-404{
   padding:70px 0;

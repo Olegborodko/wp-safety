@@ -1,4 +1,6 @@
 <?php
+$path = __DIR__.'../../../../../../../lib/shortcode.php';
+require_once($path);
 $url1 = setURL($atts['item1_image']);
 $url2 = setURL($atts['item2_image']);
 $url3 = setURL($atts['item3_image']);
@@ -7,13 +9,13 @@ $url4 = setURL($atts['item4_image']);
 //  $url1 = $atts['item1_image']['url'];
 //}
 
-function setURL($field) {
-  if (gettype($field) == 'array'){
-    return $field['url'];
-  } else {
-    return '';
-  }
-}
+//function setURL($field) {
+//  if (gettype($field) == 'array'){
+//    return $field['url'];
+//  } else {
+//    return '';
+//  }
+//}
 ?>
 
 <div class="tm_pb_section  tm_pb_section_2 tm_section_regular tm_section_transparent">

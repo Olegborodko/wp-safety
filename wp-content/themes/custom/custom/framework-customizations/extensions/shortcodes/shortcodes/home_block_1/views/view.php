@@ -1,5 +1,12 @@
+<?php
+$path = __DIR__.'../../../../../../../lib/shortcode.php';
+require_once($path);
+$url = setURL($atts['background_image']);
+?>
+
 <div
-  class="tm_pb_section invert mask_custom_black top_banner_c tm_pb_section_0 tm_pb_with_background tm_section_regular tm_section_transparent">
+  class="tm_pb_section invert mask_custom_black top_banner_c tm_pb_section_0 tm_pb_with_background tm_section_regular tm_section_transparent"
+  style="background-image: url(<?=$url?>);">
   <div class="mask_black"></div>
   <div class="container">
     <div class=" row tm_pb_row tm_pb_row_0">

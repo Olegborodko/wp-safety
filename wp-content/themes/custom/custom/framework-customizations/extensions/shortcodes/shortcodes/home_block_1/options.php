@@ -25,4 +25,11 @@ $options = array(
     'type'    => 'text',
     'value'   => __('[contact-form-7 id="26" title="home_form"]')
   ),
+
+  'background_image'  => array(
+    'label'   => __('Background_image', '{domain}'),
+    'type' => 'upload',
+    'images_only' => true
+  ),
+
 );

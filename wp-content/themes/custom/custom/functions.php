@@ -160,3 +160,92 @@ require get_template_directory() . '/inc/customizer.php';
 if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
+
+/* add admin styles */
+add_action( 'admin_enqueue_scripts', 'load_admin_styles' );
+function load_admin_styles() {
+  wp_enqueue_style( 'admin_css', get_template_directory_uri() . '/css/admin.css', time(), '1.0.0' );
+}
+
+//====================================
+//adding custom styles to TinyMCE
+// Callback function to insert 'styleselect' into the $buttons array
+//if ( ! function_exists( '_filter_mce_theme_format_insert_button' ) ) :
+//  function _filter_mce_theme_format_insert_button( $buttons ) {
+//    array_unshift( $buttons, 'styleselect' );
+//    return $buttons;
+//  } //_filter_mce_theme_format_insert_button()
+//endif;
+//// Register our callback to the appropriate filter
+//add_filter( 'mce_buttons_2', '_filter_mce_theme_format_insert_button' ); !
+//// Callback function to filter the MCE settings
+//if ( ! function_exists( '_filter_mce_theme_format_add_styles' ) ) :
+//  function _filter_mce_theme_format_add_styles( $init_array ) {
+//    // Define the style_formats array
+//    $style_formats = array(
+//      // Each array child is a format with it's own settings
+//      array(
+//        'title'   => esc_html__( 'Excerpt', '' ),
+//        'block'   => 'p',
+//        'classes' => 'entry-excerpt',
+//        'wrapper' => false,
+//      ),
+//      array(
+//        'title'   => esc_html__( 'Paragraph with dropcap', '' ),
+//        'block'   => 'p',
+//        'classes' => 'big-first-letter',
+//        'wrapper' => false,
+//      ),
+//      array(
+//        'title'   => esc_html__( 'Main theme color', '' ),
+//        'inline'  => 'span',
+//        'classes' => 'highlight',
+//        'wrapper' => false,
+//      ),
+//    );
+//    // Insert the array, JSON ENCODED, into 'style_formats'
+//    $init_array['style_formats'] = json_encode( $style_formats );
+//    return $init_array;
+//  } //_filter_mce_theme_format_add_styles()
+//endif;
+//// Attach callback to 'tiny_mce_before_init'
+//add_filter( 'tiny_mce_before_init', '_filter_mce_theme_format_add_styles' ); !
+
+//=============================================== this can work => add custom button
+//function wdm_add_mce_button() {
+//  // check user permissions
+//  if ( !current_user_can( 'edit_posts' ) &&  !current_user_can( 'edit_pages' ) ) {
+//    return;
+//  }
+//  // check if WYSIWYG is enabled
+//  if ( 'true' == get_user_option( 'rich_editing' ) ) {
+//    add_filter( 'mce_external_plugins', 'wdm_add_tinymce_plugin' );
+//    add_filter( 'mce_buttons_2', 'wdm_register_mce_button' );
+//  }
+//}
+//add_action('fw_init', 'wdm_add_mce_button');
+//
+//// register new button in the editor
+//function wdm_register_mce_button( $buttons ) {
+//  array_push( $buttons, 'wdm_mce_button' );
+//  return $buttons;
+//}
+//
+//
+//// declare a script for the new button
+//// the script will insert the shortcode on the click event
+//function wdm_add_tinymce_plugin( $plugin_array ) {
+//  $plugin_array['wdm_mce_button'] = get_template_directory_uri() .'/js/tinymce.js';
+//  return $plugin_array;
+//}
+
+//=================================================
+//if( !function_exists('focus_wysiwyg_buttons') ) {
+//  function focus_wysiwyg_buttons( $buttons ) {
+//    $buttons[] = 'styleselect';
+//    $buttons[] = 'wdm_mce_button';
+//
+//    return $buttons;
+//  }
+//}
+//add_filter( 'mce_buttons_2', 'focus_wysiwyg_buttons' );
