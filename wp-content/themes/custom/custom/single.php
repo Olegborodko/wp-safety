@@ -8,30 +8,63 @@
  */
 
 get_header();
-?>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main">
+while (have_posts()) :
+  the_post();
+  ?>
 
-		<?php
-		while ( have_posts() ) :
-			the_post();
+  <div class="breadcrumbs">
+    <div class="container">
+      <div class="row">
+        <div class="breadcrumbs__title"><h5 class="page-title"><?=the_title()?></h5></div>
+      </div>
+    </div>
+  </div>
 
-			get_template_part( 'template-parts/content', get_post_type() );
+  <div class="container single_post">
+  <div class="row">
 
-			the_post_navigation();
+  <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+    <header class="entry-header">
+      <?php
 
-			// If comments are open or we have at least one comment, load up the comment template.
-			if ( comments_open() || get_comments_number() ) :
-				comments_template();
-			endif;
+      if ('post' === get_post_type()) :
+        ?>
+        <div class="entry-meta single-post-meta">
+          Posted on
+          <?php
+          echo get_the_date( 'Y / m / d' );
+          //custom_posted_by();
+          ?>
+        </div><!-- .entry-meta -->
+      <?php endif; ?>
+    </header><!-- .entry-header -->
 
-		endwhile; // End of the loop.
-		?>
+    <?php custom_post_thumbnail(); ?>
 
-		</main><!-- #main -->
-	</div><!-- #primary -->
+    <div class="entry-content single-post-content">
+      <?php
+      the_content(sprintf(
+        wp_kses(
+        /* translators: %s: Name of current post. Only visible to screen readers */
+          __('Continue reading<span class="screen-reader-text"> "%s"</span>', 'custom'),
+          array(
+            'span' => array(
+              'class' => array(),
+            ),
+          )
+        ),
+        get_the_title()
+      ));
+
+      ?>
+    </div><!-- .entry-content -->
+
+  </article><!-- #post-<?php the_ID(); ?> -->
+  </div>
+  </div>
 
 <?php
-get_sidebar();
+endwhile; // End of the loop.
+
 get_footer();

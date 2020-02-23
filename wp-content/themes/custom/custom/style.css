@@ -7,33 +7,33 @@ License URI: LICENSE
 Text Domain: custom
 */
 
-@import 'css/fonts.css?a1=1';
-@import 'css/menu.css?a1=1';
-@import 'css/header.css?a1=3';
-@import 'css/home_block_1.css?a1=10';
-@import 'css/home_block_2.css?a1=4';
-@import 'css/home_block_3.css?a1=3';
-@import 'css/home_block_4.css?a1=2';
-@import 'css/home_block_5.css?a1=2';
-@import 'css/home_block_6.css?a1=2';
-@import 'css/home_block_7.css?a1=2';
+/*@import 'css/fonts.css?a1=1';*/
+/*@import 'css/menu.css?a1=1';*/
+/*@import 'css/header.css?a1=3';*/
+/*@import 'css/home_block_1.css?a1=10';*/
+/*@import 'css/home_block_2.css?a1=4';*/
+/*@import 'css/home_block_3.css?a1=3';*/
+/*@import 'css/home_block_4.css?a1=2';*/
+/*@import 'css/home_block_5.css?a1=2';*/
+/*@import 'css/home_block_6.css?a1=2';*/
+/*@import 'css/home_block_7.css?a1=2';*/
 
-@import 'css/about_block_1.css?a1=2';
-@import 'css/about_block_2.css?a1=3';
-@import 'css/about_block_3.css?a1=8';
-@import 'css/about_block_4.css?a1=4';
+/*@import 'css/about_block_1.css?a1=2';*/
+/*@import 'css/about_block_2.css?a1=3';*/
+/*@import 'css/about_block_3.css?a1=8';*/
+/*@import 'css/about_block_4.css?a1=4';*/
 
-@import 'css/CDPAP_block_2.css?a1=2';
+/*@import 'css/CDPAP_block_2.css?a1=2';*/
 
-@import 'css/downloads_block3.css?a1=3';
+/*@import 'css/downloads_block3.css?a1=5';*/
 
-@import 'css/blog_block_2.css?a1=2';
+/*@import 'css/blog_block_2.css?a1=2';*/
 
-@import 'css/contact_us_2.css?a1=4';
-@import 'css/contact_us_3.css?a1=2';
+/*@import 'css/contact_us_2.css?a1=4';*/
+/*@import 'css/contact_us_3.css?a1=2';*/
 
-@import 'css/footer.css?a1=5';
-@import 'css/grid.css?a1=5';
+/*@import 'css/footer.css?a1=5';*/
+/*@import 'css/grid.css?a1=5';*/
 
 body{
   margin:0;
@@ -228,4 +228,80 @@ p {
   text-align: center;
   margin:0 auto!important;
   border: 2px solid red!important;
+}
+
+/* ------- */
+.single_post article{
+  padding: 40px;
+}
+
+.single_post .single-post-content p{
+  margin-top:40px;
+}
+
+.single_post .single-post-meta{
+  font-size: 18px;
+  font-style: italic;
+  margin-bottom: 18px;
+}
+
+@media only screen and ( max-width: 767px ){
+  .single_post article{
+    padding: 40px 10px;
+  }
+}
+
+/* ----------- */
+.blog_post_title,
+.blog_post_date
+{
+  display:inline;
+}
+
+.blog_post_title{
+  font-weight:700;
+  font-style: normal;
+}
+
+.blog_post_date{
+  margin-left:20px;
+}
+
+.blog_posts{
+  padding:30px;
+}
+
+.blog_posts .single-post-meta{
+  margin-bottom: 18px;
+}
+
+@media only screen and ( max-width: 767px ) {
+  .blog_posts {
+    padding: 10px 10px 20px;
+  }
+
+  .blog_posts .single-post-meta{
+    margin-top:30px;
+  }
+}
+
+.contacts{
+  padding: 40px;
+}
+
+.contacts p{
+  margin-bottom:25px;
+}
+
+.section-custom{
+  padding: 10px 40px;
+}
+
+@media only screen and ( max-width: 767px ) {
+  .contacts{
+    padding: 20px 10px;
+  }
+  .section-custom{
+    padding: 10px 10px;
+  }
 }

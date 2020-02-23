@@ -1,11 +1,11 @@
 (function( $ ) {
-  let $menuToggle = $('.main-menu-toggle[aria-controls="main-menu"]');
-  let $mainNavigation = $('.main-navigation');
+  var menuToggle = $('.main-menu-toggle[aria-controls="main-menu"]');
+  var $mainNavigation = $('.main-navigation');
 
-  $menuToggle.on( 'click', toggleMenuHandler );
+  menuToggle.on( 'click', toggleMenuHandler );
 
   function toggleMenuHandler($event) {
-    let $toggle = $('.sub-menu-toggle');
+    var $toggle = $('.sub-menu-toggle');
 
     if (!$event.isDefaultPrevented()) {
       $event.preventDefault();
@@ -19,8 +19,8 @@
       $('html').toggleClass('mobile-menu-active');
     }, 10);
 
-    $menuToggle.toggleClass('toggled');
-    $menuToggle.attr('aria-expanded', !$menuToggle.hasClass('toggled'));
+    menuToggle.toggleClass('toggled');
+    menuToggle.attr('aria-expanded', !menuToggle.hasClass('toggled'));
 
     if ($toggle.hasClass('active')) {
       $toggle.removeClass('active');
